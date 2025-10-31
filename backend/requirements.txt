@@ -1,0 +1,7 @@
+flask
+flask-cors
+nltk
+astor
+numpy
+scikit-learn
+python-Levenshtein

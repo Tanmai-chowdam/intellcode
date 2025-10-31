@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  background-color: #0f172a;
+  color: white;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #38bdf8;
+}
+
+.code-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+textarea {
+  width: 45%;
+  height: 200px;
+  background-color: #1e293b;
+  color: white;
+  border: 2px solid #334155;
+  border-radius: 8px;
+  padding: 10px;
+  font-family: monospace;
+}
+
+button {
+  background-color: #38bdf8;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 1rem;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.result-box {
+  margin-top: 2rem;
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.highlighted {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
